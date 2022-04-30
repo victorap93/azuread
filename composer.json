@@ -1,0 +1,27 @@
+{
+    "name": "victorap93/azuread",
+    "description": "Azure AD is an easy way to use Azure AD 2.0 Protocols to get authorization token",
+    "keywords": [
+        "Microsoft",
+        "Azure AD",
+        "token"
+    ],
+    "version": "0.1.0",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "victorap93\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor Aparecido Barbato Rossi",
+            "email": "victorap93@gmail.com",
+            "homepage": "https://github.com/victorap93"
+        }
+    ]
+}
